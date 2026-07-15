@@ -1,0 +1,93 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="M1gGKiVx9Rtv05_GOpBk">
+    <mxGraphModel dx="680" dy="666" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zADg_5XsvKTraRbV4gkf-3" edge="1" parent="1" source="zADg_5XsvKTraRbV4gkf-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zADg_5XsvKTraRbV4gkf-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="User" vertex="1">
+          <mxGeometry height="60" width="120" x="270" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zADg_5XsvKTraRbV4gkf-4" edge="1" parent="1" source="zADg_5XsvKTraRbV4gkf-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;innerLoopWaypoints=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="zADg_5XsvKTraRbV4gkf-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zADg_5XsvKTraRbV4gkf-6" edge="1" parent="1" source="zADg_5XsvKTraRbV4gkf-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zADg_5XsvKTraRbV4gkf-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Amazon Route53" vertex="1">
+          <mxGeometry height="60" width="120" x="270" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="zADg_5XsvKTraRbV4gkf-8" edge="1" parent="1" source="zADg_5XsvKTraRbV4gkf-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zADg_5XsvKTraRbV4gkf-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Amazon CloudFront" vertex="1">
+          <mxGeometry height="60" width="120" x="270" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="zADg_5XsvKTraRbV4gkf-10" edge="1" parent="1" source="zADg_5XsvKTraRbV4gkf-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zADg_5XsvKTraRbV4gkf-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="AWS WAF" vertex="1">
+          <mxGeometry height="60" width="120" x="270" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="zADg_5XsvKTraRbV4gkf-14" edge="1" parent="1" source="zADg_5XsvKTraRbV4gkf-11" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zADg_5XsvKTraRbV4gkf-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Application Load Balancer" vertex="1">
+          <mxGeometry height="60" width="120" x="270" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="zADg_5XsvKTraRbV4gkf-15" edge="1" parent="1" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="350" y="610" />
+            </Array>
+            <mxPoint x="280" y="610" as="sourcePoint" />
+            <mxPoint x="390" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zADg_5XsvKTraRbV4gkf-17" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="280" y="610" as="sourcePoint" />
+            <mxPoint x="280" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zADg_5XsvKTraRbV4gkf-18" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="390" y="610" as="sourcePoint" />
+            <mxPoint x="390" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zADg_5XsvKTraRbV4gkf-21" edge="1" parent="1" source="zADg_5XsvKTraRbV4gkf-19" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zADg_5XsvKTraRbV4gkf-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Private EC2" vertex="1">
+          <mxGeometry height="60" width="120" x="220" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="zADg_5XsvKTraRbV4gkf-22" edge="1" parent="1" source="zADg_5XsvKTraRbV4gkf-20" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zADg_5XsvKTraRbV4gkf-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Public EC2" vertex="1">
+          <mxGeometry height="60" width="120" x="350" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="zADg_5XsvKTraRbV4gkf-23" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Amazon RDS" vertex="1">
+          <mxGeometry height="60" width="120" x="270" y="800" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
